@@ -5,8 +5,9 @@
 </p>
 
 
-> [!CAUTION]
+> [!IMPORTANT]  
 > To ensure the safety of your authentication data, please use auth-cmd only on a secure, private computer.
+
 ## Installation
 
 ### Install zbar
@@ -23,9 +24,8 @@
   brew install zbar
 ```
 
-> [!NOTE]  
-> If `auth-cmd` cannot locate the `zbar` library after installation, try creating a symbolic link for the zbar shared library:
-> [reference](https://stackoverflow.com/questions/63217735/import-pyzbar-pyzbar-unable-to-find-zbar-shared-library/71904987#71904987)
+  - If `auth-cmd` cannot locate the `zbar` library after installation, try creating a symbolic link for the zbar shared library:
+  - [reference](https://stackoverflow.com/questions/63217735/import-pyzbar-pyzbar-unable-to-find-zbar-shared-library/71904987#71904987)
 
 ```sh
   mkdir ~/lib
