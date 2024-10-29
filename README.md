@@ -47,7 +47,7 @@ This tool provides several commands to manage TOTP tokens.
 
 ### Add a Token
 
-To add a new token by qr-code
+To add a new token by a QRcode
 
 ```sh
 auth add-qr
