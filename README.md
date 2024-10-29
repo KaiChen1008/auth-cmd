@@ -6,19 +6,23 @@
 
 ## Installation
 
-### Install Zbar
-ZBar is required for barcode scanning functionality. Follow the installation steps for your operating system:
+### Install zbar
+
 - **Ubuntu**
+
 ```sh
   sudo apt update && sudo apt install -y libzbar-dev
 ```
 
 - **MacOS**
+
 ```sh
   brew install zbar
 ```
-  - If you encounter issues after installation, try creating a symbolic link for the zbar shared library:
-  - [reference](https://stackoverflow.com/questions/63217735/import-pyzbar-pyzbar-unable-to-find-zbar-shared-library/71904987#71904987)
+
+- If `auth-cmd` cannot locate the `zbar` library after installation, try creating a symbolic link for the zbar shared library:
+- [reference](https://stackoverflow.com/questions/63217735/import-pyzbar-pyzbar-unable-to-find-zbar-shared-library/71904987#71904987)
+
 ```sh
   mkdir ~/lib
   ln -s $(brew --prefix zbar)/lib/libzbar.dylib ~/lib/libzbar.dylib
@@ -28,6 +32,7 @@ ZBar is required for barcode scanning functionality. Follow the installation ste
   - Download the installer from the [Zbar homepage](https://zbar.sourceforge.net/download.html) and follow the instructions provided.
 
 ### Install Package
+
 ```sh
 pip install auth-cmd
 ```
