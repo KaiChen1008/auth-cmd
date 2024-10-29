@@ -99,4 +99,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ### Author
 
-Ken Lin<1038790@gmail.com>
+Ken Lin (<1038790@gmail.com>)
