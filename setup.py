@@ -6,7 +6,19 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        "Click",
+        "click",
+        "re",
+        "typing",
+        "pathlib",
+        "pyzbar",
+        "pillow==10.3.0",
+        "pyperclip",
+        "hmac",
+        "base64",
+        "hashlib",
+        "struct",
+        "time",
+        "csv",
     ],
     entry_points={
         "console_scripts": [
