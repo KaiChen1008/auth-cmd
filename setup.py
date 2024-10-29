@@ -7,18 +7,13 @@ setup(
     include_package_data=True,
     install_requires=[
         "click",
-        "re",
+        "regex",
         "typing",
         "pathlib",
         "pyzbar",
-        "pillow==10.3.0",
+        "pillow",
         "pyperclip",
-        "hmac",
-        "base64",
-        "hashlib",
-        "struct",
-        "time",
-        "csv",
+        "pybase64",
     ],
     entry_points={
         "console_scripts": [
@@ -29,7 +24,7 @@ setup(
     description="A TOTP authentication tool",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/KaiChen1008/auth",  # If hosted on GitHub
+    url="https://github.com/KaiChen1008/auth-cmd",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
