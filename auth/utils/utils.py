@@ -30,7 +30,6 @@ def generate_totp(secret, digits=6, digest_method=hashlib.sha1):
     key = base64.b32decode(secret, True)
 
     # Get the current time, divide by time step and convert to an integer
-    print(int(time.time()))
     current_time = int(time.time()) // TIME_STEP
 
     # Pack the current time into a byte array (8 bytes, big-endian)
