@@ -1,9 +1,12 @@
 <p align="center">
   <img src="images/logo.2.png" height="256">
   <!-- <h1 align="center">Auth CMD</h1> -->
-  <p align="center">A TOTP (Time-based One-Time Password) authentication <b>command line</b> tool.</p>
+  <p align="center">A secure, private command-line tool for TOTP (Time-based One-Time Password) authentication</p>
 </p>
 
+
+> [!CAUTION]
+> To ensure the safety of your authentication data, please use auth-cmd only on a secure, private computer.
 ## Installation
 
 ### Install zbar
@@ -20,8 +23,9 @@
   brew install zbar
 ```
 
-- If `auth-cmd` cannot locate the `zbar` library after installation, try creating a symbolic link for the zbar shared library:
-- [reference](https://stackoverflow.com/questions/63217735/import-pyzbar-pyzbar-unable-to-find-zbar-shared-library/71904987#71904987)
+> [!NOTE]  
+> If `auth-cmd` cannot locate the `zbar` library after installation, try creating a symbolic link for the zbar shared library:
+> [reference](https://stackoverflow.com/questions/63217735/import-pyzbar-pyzbar-unable-to-find-zbar-shared-library/71904987#71904987)
 
 ```sh
   mkdir ~/lib
