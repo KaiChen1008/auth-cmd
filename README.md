@@ -69,7 +69,7 @@ auth gen <name>
 
 The generated TOTP will be copied to your clipboard.
 
-Be Faster: create a alias to speed up the process
+**Want Faster? Create an alias to speed up the process!**
 
 ```sh
 alias gen='auth gen'
@@ -99,4 +99,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ### Author
 
-Ken Lin
+Ken Lin<1038790@gmail.com>
