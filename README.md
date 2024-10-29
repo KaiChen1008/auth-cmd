@@ -33,7 +33,7 @@
 ```
 
 - **Windows**
-  - Download the installer from the [Zbar homepage](https://zbar.sourceforge.net/download.html) and follow the instructions provided.
+  - Download the installer from the [zbar homepage](https://zbar.sourceforge.net/download.html) and follow the instructions provided.
 
 ### Install Package
 
@@ -72,7 +72,9 @@ The generated TOTP will be copied to your clipboard.
 Be Faster: create a alias to speed up the process
 
 ```sh
-alias ag='auth gen'
+alias gen='auth gen'
+# or
+alias g='auth gen'
 ```
 
 ### List Tokens
