@@ -1,12 +1,34 @@
-# Auth-Cmd
-
-A TOTP (Time-based One-Time Password) authentication "**cmd"** tool.
+<p align="center">
+  <img src="images/logo.2.png" height="256">
+  <!-- <h1 align="center">Auth CMD</h1> -->
+  <p align="center">A TOTP (Time-based One-Time Password) authentication <b>command line</b> tool.</p>
+</p>
 
 ## Installation
 
-To install the package, run:
+### Install Zbar
+ZBar is required for barcode scanning functionality. Follow the installation steps for your operating system:
+- **Ubuntu**
+```sh
+  sudo apt update && sudo apt install -y libzbar-dev
+```
 
-```python
+- **MacOS**
+```sh
+  brew install zbar
+```
+  - If you encounter issues after installation, try creating a symbolic link for the zbar shared library:
+  - [reference](https://stackoverflow.com/questions/63217735/import-pyzbar-pyzbar-unable-to-find-zbar-shared-library/71904987#71904987)
+```sh
+  mkdir ~/lib
+  ln -s $(brew --prefix zbar)/lib/libzbar.dylib ~/lib/libzbar.dylib
+```
+
+- **Windows**
+  - Download the installer from the [Zbar homepage](https://zbar.sourceforge.net/download.html) and follow the instructions provided.
+
+### Install Package
+```sh
 pip install auth-cmd
 ```
 
@@ -21,8 +43,6 @@ To add a new token by qr-code
 ```sh
 auth add-qr
 ```
-
-You will be prompted to enter a name and qr code image path.
 
 If you know the secret of a TOTP. You can add a new token by
 
@@ -39,6 +59,12 @@ auth gen <name>
 ```
 
 The generated TOTP will be copied to your clipboard.
+
+Be Faster: create a alias to speed up the process
+
+```sh
+alias ag='auth gen'
+```
 
 ### List Tokens
 
