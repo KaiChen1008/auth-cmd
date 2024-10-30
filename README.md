@@ -8,7 +8,7 @@
 > [!IMPORTANT]  
 > To ensure the safety of your authentication data, please use auth-cmd only on a secure, private computer.
 
-![demo](/assets/auth-cmd.mp4)
+![demo](https://github.com/user-attachments/assets/805c9174-1051-4c1a-a554-7997129356e7)
 
 
 ## Installation
