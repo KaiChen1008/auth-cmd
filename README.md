@@ -1,7 +1,7 @@
 <p align="center">
   <img src="images/logo.2.png" height="256">
   <!-- <h1 align="center">Auth CMD</h1> -->
-  <p align="center">A secure, private command-line tool for TOTP (Time-based One-Time Password) authentication</p>
+  <p align="center">A secure and privacy-focused command-line tool for two-factor authentication (2FA) and Time-based One-Time Passwords (TOTP).</p>
 </p>
 
 
