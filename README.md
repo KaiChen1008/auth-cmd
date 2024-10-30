@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/logo.2.png" height="256">
+  <img src="assets/logo.2.png" height="256">
   <!-- <h1 align="center">Auth CMD</h1> -->
   <p align="center">A secure and privacy-focused command-line tool for two-factor authentication (2FA) and Time-based One-Time Passwords (TOTP).</p>
 </p>
@@ -8,8 +8,7 @@
 > [!IMPORTANT]  
 > To ensure the safety of your authentication data, please use auth-cmd only on a secure, private computer.
 
-
-[demo](./images/auth-cmd.mp4)
+![demo](/assets/auth-cmd.mp4)
 
 
 ## Installation
