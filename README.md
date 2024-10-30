@@ -10,8 +10,9 @@
 
 
 <div align="center">
-  <video controls autoplay src="https://github.com/user-attachments/assets/805c9174-1051-4c1a-a554-7997129356e7" height="256" />
+  <video controls autoplay src="https://github.com/user-attachments/assets/80e3b357-b4fc-4974-9a9f-76a4e3f29267"  />
 </div>
+
 
 ## Installation
 
