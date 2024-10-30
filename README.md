@@ -8,8 +8,10 @@
 > [!IMPORTANT]  
 > To ensure the safety of your authentication data, please use auth-cmd only on a secure, private computer.
 
-![demo](https://github.com/user-attachments/assets/805c9174-1051-4c1a-a554-7997129356e7)
 
+<div align="center">
+  <video controls autoplay src="https://github.com/user-attachments/assets/805c9174-1051-4c1a-a554-7997129356e7" height="256" />
+</div>
 
 ## Installation
 
