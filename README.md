@@ -8,11 +8,9 @@
 > [!IMPORTANT]  
 > To ensure the safety of your authentication data, please use auth-cmd only on a secure, private computer.
 
-<p align="center">
-<video height="256" controls>
-  <source src="./images/auth-cmd.mov", type="video/mov">
-</video>
-</p>
+
+[demo](./images/auth-cmd.mp4)
+
 
 ## Installation
 
