@@ -1,6 +1,6 @@
 import click
 import csv
-from auth.utils.params import TOKEN_PATH
+from auth.utils.params import TOKEN_PATH, TOKEN_DIR
 from auth.utils.utils import has_token
 
 
@@ -35,6 +35,8 @@ def add(name: str, secret: str, digit: str) -> None:
 
 
 def _add(name: str, secret: str, digit: int) -> None:
+    TOKEN_DIR.mkdir(parents=True, exist_ok=True)
+
     # Make sure the name does not exist
     if has_token(name):
         raise ValueError(f"Token {name} already exists.")

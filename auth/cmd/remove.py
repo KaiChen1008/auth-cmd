@@ -1,6 +1,7 @@
 import click
 import csv
 from auth.utils.params import TOKEN_PATH
+from auth.utils.utils import config_exists
 
 
 @click.command()
@@ -10,6 +11,9 @@ def remove(name: str):
     Remove a token
     """
     click.echo("Remove a token.")
+    if not config_exists():
+        click.ClickException("No token exist.")
+        return
 
     res = []
     with open(TOKEN_PATH, mode="r") as f:

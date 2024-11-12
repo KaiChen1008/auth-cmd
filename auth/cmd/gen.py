@@ -2,7 +2,7 @@ import click
 import csv
 import pyperclip
 from auth.utils.params import TOKEN_PATH
-from auth.utils.utils import generate_totp
+from auth.utils.utils import generate_totp, config_exists
 
 
 @click.command()
@@ -12,6 +12,9 @@ def gen(name: str):
     Generate TOTP password
     """
     click.echo(f"Generating token for {name}.")
+    if not config_exists():
+        click.ClickException("No token exist.")
+        return
 
     with open(TOKEN_PATH, mode="r") as f:
         reader = csv.reader(f)
